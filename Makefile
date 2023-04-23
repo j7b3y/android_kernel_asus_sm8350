@@ -757,8 +757,8 @@ KBUILD_CFLAGS += -Os
 endif
 
 # Optimise kernel binary for 888's CPU
-KBUILD_CFLAGS	+= -mcpu=cortex-x1
-KBUILD_AFLAGS	+= -mcpu=cortex-x1
+#KBUILD_CFLAGS	+= -mcpu=cortex-x1
+#KBUILD_AFLAGS	+= -mcpu=cortex-x1
 
 # Tell gcc to never replace conditional load with a non-conditional one
 KBUILD_CFLAGS	+= $(call cc-option,--param=allow-store-data-races=0)
