@@ -190,5 +190,3 @@ obj-$(CONFIG_COUNTER)		+= counter/
 
 # ASUS_BSP Clay : ALSPSsensor and Airtrigger driver
 obj-$(CONFIG_SENSORS_SSC)       += sensors/
-
-obj-y += kernelsu/
